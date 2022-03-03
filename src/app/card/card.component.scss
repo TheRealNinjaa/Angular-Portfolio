@@ -1,0 +1,192 @@
+/* Container for all cards */
+.container{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -2;
+}
+/* Ninjas Card */
+.cardcontainer{
+    width: 330px;
+    height: 550px;
+}
+/* the card */
+.thecard{
+    width: 95%;
+    height: 95%;
+    transform-style: preserve-3d;
+    transition: all 0.9s ease;
+    font-family: ubuntu, mono;
+    font-size: 18px;
+}
+.thefront{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: rgb(212, 212, 212);
+    color: black;
+    text-align: center;
+    border-radius: 11px;
+    border-style: solid;
+    border-width: 6px;
+    border-color: rgb(65, 65, 65);
+}
+.thecard:hover{
+    transform: rotateY(180deg);
+}
+.theback{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: rgb(212, 212, 212);
+    color: black;
+    transform: rotateY(180deg);
+    text-align: center;
+    border-radius: 11px;
+    border-style: solid;
+    border-width: 6px;
+    border-color: rgb(65, 65, 65);
+}
+/* Content in card */
+.topbar{
+    margin-top: 15px;
+    width: 100%;
+    height: 38px;
+    border: solid;
+    border-width: 2px 0px 2px 0px;
+    background: linear-gradient(-45deg, #1295d1, #018ccc, #2130ff, #001ea3);
+    border-color: rgb(34, 34, 34);;
+}
+.ninja { 
+    margin-top: 35px;
+    max-width: 300px;
+    margin-bottom: -25px;
+}
+.nametext{
+    margin-bottom: 10px;
+}
+.line{
+    margin: auto;
+    width: 40%;
+    height: 2px;
+    background: black;
+    border-radius: 50px;
+}
+.fronttext{
+    margin-top: 5px;
+}
+.textsizelink{
+    margin-bottom: -13px;
+}
+.backtitle{
+    font-size: 30px;
+    margin-bottom: -13px;
+}
+/* Blooms Card */
+.cardcontainer2{
+    width: 330px;
+    height: 550px;
+    margin-left: 15px;
+    z-index: -1;
+}
+/* the card */
+.thecard2{
+    width: 95%;
+    height: 95%;
+    transform-style: preserve-3d;
+    transition: all 0.9s ease;
+    font-family: ubuntu, mono;
+    font-size: 18px;
+}
+.thefront2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: rgb(212, 212, 212);
+    color: black;
+    text-align: center;
+    border-radius: 11px;
+    border-style: solid;
+    border-width: 6px;
+    border-color: rgb(65, 65, 65);
+}
+.thecard2:hover{
+    transform: rotateY(180deg);
+}
+.theback2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: rgb(212, 212, 212);
+    color: black;
+    transform: rotateY(180deg);
+    text-align: center;
+    border-radius: 11px;
+    border-style: solid;
+    border-width: 6px;
+    border-color: rgb(65, 65, 65);
+}
+/* Content in card */
+.topbar2{
+    margin-top: 15px;
+    width: 100%;
+    height: 38px;
+    border: solid;
+    border-width: 2px 0px 2px 0px;
+    background: linear-gradient(-45deg, #df8b0d, #fddf7b, #fffc5b, #e0d31e);
+    border-color: rgb(34, 34, 34);;
+}
+.bloom{ 
+    margin-top: 48px;
+    max-width: 250px;
+    margin-bottom: 12px;
+}
+.nametext2{
+    margin-bottom: 10px;
+}
+.line2{
+    margin: auto;
+    width: 40%;
+    height: 2px;
+    background: black;
+    border-radius: 50px;
+}
+.fronttext2{
+    margin-top: 5px;
+}
+.textsizelink2{
+    margin-bottom: -13px;
+}
+.backtitle2{
+    font-size: 30px;
+    margin-bottom: -13px;
+}
+/* Link colours */
+a:link {
+    color: rgb(20, 20, 20);
+    background-color: transparent;
+    text-decoration: none;
+} 
+a:visited {
+    color: rgb(20, 20, 20);
+    background-color: transparent;
+    text-decoration: none;
+} 
+a:hover {
+    color: rgb(0, 142, 207);
+    background-color: transparent;
+    text-decoration: underline;
+} 
+a:active {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: underline;
+}
