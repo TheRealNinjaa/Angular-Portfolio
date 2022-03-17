@@ -1,27 +1,23 @@
 
-<app-header></app-header>
+<body class="background">
 <div class="loginframe">
-<form action="action_page.php" method="post">
+<form>
   <div class="imgcontainer">
     <img src="assets/images/DSC.png" class="avatar">
   </div>
 
   <div class="container">
-    <label for="uname"><b>Username</b></label>
+    <label for="uname"><b class="color">Username</b></label>
     <input type="text" placeholder="Username" name="uname" required>
 
-    <label for="psw"><b>Password</b></label>
+    <label for="psw"><b class="color">Password</b></label>
     <input type="password" placeholder="Password" name="psw" required>
 
-    <button type="submit">Login</button>
-    <label>
+    <button routerLink="/home" routerLinkActive="active">Login</button>
+    <label class="color">
       <input type="checkbox" checked="checked" name="remember"> - Herriner Mij
     </label>
   </div>
-
-  <div class="cancelagain" style="background-color:#ffffff">
-    <button type="button" class="cancelbtn">Cancel</button>
-  </div>
 </form>
 </div>
-<app-footer></app-footer>
+</body>
