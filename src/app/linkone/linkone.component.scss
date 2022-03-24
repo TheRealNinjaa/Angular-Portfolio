@@ -26,10 +26,10 @@
 }
 ::-webkit-scrollbar{
     background: #00a4f0;
+    width: 10px;
 }
 ::-webkit-scrollbar-thumb {
     background: rgb(140, 0, 255);
-    
   }
 @media screen and (max-width:990px) {
     .container { flex-wrap: wrap;  }

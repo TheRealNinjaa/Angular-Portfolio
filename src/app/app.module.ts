@@ -10,6 +10,7 @@ import { LinkoneComponent } from './linkone/linkone.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { MusicComponent } from './music/music.component';
+import { LoadingComponent } from './loading/loading.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { MusicComponent } from './music/music.component';
     LinkoneComponent,
     HomeComponent,
     LoginComponent,
-    MusicComponent
+    MusicComponent,
+    LoadingComponent
   ],
   imports: [
     BrowserModule,
