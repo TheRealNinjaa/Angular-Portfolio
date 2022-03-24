@@ -6,6 +6,8 @@
     transform: translate(-50%, -50%);
     width: 88%;
     height: 660px;
+    overflow-y: scroll;
+    overflow-x: hidden;
     background-color: rgb(97, 97, 97);
     border-radius: 11px;
     border-width: 5px;
@@ -18,12 +20,17 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-top: 25px;
 }
 .items{
-    max-width: 360px;
+    max-width: fit-content;
 }
-
+::-webkit-scrollbar{
+    background: #00a4f0;
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(140, 0, 255);
+    
+  }
 @media screen and (max-width:990px) {
     .container { flex-wrap: wrap;  }
     .items { flex-basis: 100%; }
