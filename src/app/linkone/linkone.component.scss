@@ -1,3 +1,24 @@
+.background{
+    position: fixed;
+    min-width: 100%;
+    background: linear-gradient(-45deg, #8e04ff, #1900ff, #3978ff, #00b7ff);
+    background-position: center;
+    background-size: cover;
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+  }
+  @keyframes gradient {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  }
+
 .popupone{
     margin: 0 auto 0 auto;
     position: absolute;
